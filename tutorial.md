@@ -16,6 +16,12 @@ sudo npm install -g @adonisjs/cli
 adonis new gonode --api-only
 ```
 
+- Up the server:
+
+```
+adonis serve --dev
+```
+
 ---
 
 > **_ESLint configurations[AdonisJS]_**
@@ -44,4 +50,22 @@ npx eslint --init
 
 ```
 npm i --save pg
+```
+
+---
+
+> **_Register users_**
+
+- Create UserController:
+
+```
+adonis make:controller User
+```
+
+`For HTTP requests
+
+List routes of application:
+
+```
+adonis route:list
 ```
