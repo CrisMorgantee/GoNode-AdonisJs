@@ -69,3 +69,15 @@ List routes of application:
 ```
 adonis route:list
 ```
+
+---
+
+> **_JWT authentication [AdonisJS]_**
+
+- Create SessionController:
+
+```
+adonis make:controller Session
+```
+
+`For HTTP requests
