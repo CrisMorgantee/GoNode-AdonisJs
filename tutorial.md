@@ -153,3 +153,16 @@ adonis make:model File -m -c
 ---
 
 > **_View Files_**
+
+---
+
+> **_Create models of projects/tasks_**
+
+- Create model, migration and controller:
+
+```
+adonis make:model Project -m -c
+adonis make:model Task -m -c
+```
+
+Run `adonis migration:run` for create migrations.
