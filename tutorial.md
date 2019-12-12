@@ -170,3 +170,13 @@ Run `adonis migration:run` for create migrations.
 ---
 
 > **_Relationships_**
+
+---
+
+> **_CRUD projects_**
+
+This route access all routes possible on CRUD:
+
+`Route.resource('projects', 'ProjectController').apiOnly()`
+
+Use `Route.group` around of routes with required authentication
