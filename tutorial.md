@@ -80,7 +80,9 @@ adonis route:list
 adonis make:controller Session
 ```
 
-## `For HTTP requests`
+`For HTTP requests`
+
+---
 
 > **_Forgot Password_**
 
@@ -97,3 +99,31 @@ adonis make:controller ForgotPassword
 ```
 
 `For HTTP requests`
+
+---
+
+> **_Send email_**
+
+**_Install:_**
+
+```
+adonis install @adonisjs/mail
+```
+
+After this, are redirect for page with tutorial for config.
+Copy this line code and paste in App.js:
+
+```
+'@adonisjs/mail/providers/MailProvider'
+```
+
+-Views(Templates):
+Copy this line code and paste in App.js:
+
+```
+'@adonisjs/framework/providers/ViewProvider'
+```
+
+Create structure:
+
+`resources/views/emails/forgot_password.edge`
