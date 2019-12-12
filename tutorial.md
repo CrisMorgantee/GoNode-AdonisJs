@@ -139,3 +139,13 @@ Create structure:
 ```
 npm i moment
 ```
+
+---
+
+> **_Upload Files_**
+
+- Create model, migration and controller:
+
+```
+adonis make:model File -m -c
+```
