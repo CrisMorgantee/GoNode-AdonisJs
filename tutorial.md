@@ -149,3 +149,7 @@ npm i moment
 ```
 adonis make:model File -m -c
 ```
+
+---
+
+> **_View Files_**
