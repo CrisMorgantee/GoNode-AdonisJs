@@ -166,3 +166,7 @@ adonis make:model Task -m -c
 ```
 
 Run `adonis migration:run` for create migrations.
+
+---
+
+> **_Relationships_**
