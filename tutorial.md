@@ -62,7 +62,7 @@ npm i --save pg
 adonis make:controller User
 ```
 
-`For HTTP requests
+`For HTTP requests`
 
 List routes of application:
 
@@ -80,4 +80,20 @@ adonis route:list
 adonis make:controller Session
 ```
 
-`For HTTP requests
+## `For HTTP requests`
+
+> **_Forgot Password_**
+
+- Create new column in table users:(view code!)
+
+  ```
+  adonis migration:rollback
+  ```
+
+- Create ForgotPasswordController:
+
+```
+adonis make:controller ForgotPassword
+```
+
+`For HTTP requests`
