@@ -127,3 +127,15 @@ Copy this line code and paste in App.js:
 Create structure:
 
 `resources/views/emails/forgot_password.edge`
+
+---
+
+> **_Reset Password_**
+
+- To deal with date:
+
+**_Install:_**
+
+```
+npm i moment
+```
