@@ -180,3 +180,9 @@ This route access all routes possible on CRUD:
 `Route.resource('projects', 'ProjectController').apiOnly()`
 
 Use `Route.group` around of routes with required authentication
+
+---
+
+> **_CRUD tasks_**
+
+View video from route explication.
