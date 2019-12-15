@@ -186,3 +186,25 @@ Use `Route.group` around of routes with required authentication
 > **_CRUD tasks_**
 
 View video from route explication.
+
+---
+
+> **_Using validator_**
+
+**_Install:_**
+
+```
+adonis install @adonisjs/validator
+```
+
+Copy this in `start/App.js`:
+
+```
+'@adonisjs/validator/providers/ValidatorProvider'
+```
+
+Run in terminal:
+
+```
+adonis make:validator User
+```
