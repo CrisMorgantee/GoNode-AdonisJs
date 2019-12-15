@@ -208,3 +208,13 @@ Run in terminal:
 ```
 adonis make:validator User
 ```
+
+---
+
+> **_Handling exceptions_**
+
+Run:
+
+```
+adonis make:ehandler
+```
