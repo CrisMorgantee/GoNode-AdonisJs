@@ -240,3 +240,7 @@ adonis install @adonisjs/validator
 ```
 
 ‣ Filesystem (locales directory)
+
+---
+
+> **_Pagination_**
