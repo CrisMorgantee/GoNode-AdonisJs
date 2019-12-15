@@ -218,3 +218,13 @@ Run:
 ```
 adonis make:ehandler
 ```
+
+---
+
+> **_Routes validations_**
+
+Run in terminal:
+
+```
+adonis make:validator Session && adonis make:validator ForgotPassword && adonis make:validator ResetPassword && adonis make:validator Project && adonis make:validator Task
+```
