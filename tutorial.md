@@ -228,3 +228,15 @@ Run in terminal:
 ```
 adonis make:validator Session && adonis make:validator ForgotPassword && adonis make:validator ResetPassword && adonis make:validator Project && adonis make:validator Task
 ```
+
+---
+
+> **_Internationalization_**
+
+**_Install:_**
+
+```
+adonis install @adonisjs/validator
+```
+
+‣ Filesystem (locales directory)
