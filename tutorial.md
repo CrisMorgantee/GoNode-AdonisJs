@@ -244,3 +244,13 @@ adonis install @adonisjs/validator
 ---
 
 > **_Pagination_**
+
+---
+
+> **_Create tasks Hook_**
+
+Run:
+
+```
+adonis make:hook Task
+```
