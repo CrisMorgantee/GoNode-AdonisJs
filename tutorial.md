@@ -254,3 +254,34 @@ Run:
 ```
 adonis make:hook Task
 ```
+
+---
+
+> **_Queue with Redis_**
+
+Run:
+
+```
+docker run --name redis -p 6379:6379 -d redis:alpine
+```
+
+**_Install:_**
+
+```
+adonis install @adonisjs/redis
+npm install adonis-kue
+```
+
+Note: Ace providers give access to new commands in terminal
+
+Run:
+
+```
+adonis make:job NewTaskMail
+```
+
+For listen the queue:
+
+```
+adonis kue:listen
+```
